@@ -1,0 +1,20 @@
+// here it will shows how to compile and execute
+
+
+F:\java\polimorphism\Abstraction\application_using_abstraction>javac -d . Message.java
+
+F:\java\polimorphism\Abstraction\application_using_abstraction>javac -d . Helper.java
+
+F:\java\polimorphism\Abstraction\application_using_abstraction>javac -d . Client1.java
+
+F:\java\polimorphism\Abstraction\application_using_abstraction>javac -d . Client2.java
+
+F:\java\polimorphism\Abstraction\application_using_abstraction>java com.dss.client.Client1
+good morning  (from client1)
+good evening  (from client1)
+good night  (from helper)
+
+F:\java\polimorphism\Abstraction\application_using_abstraction>java com.dss.client.Client2
+good morning  (from client2)
+good evening  (from client2)
+good night  (from client2)

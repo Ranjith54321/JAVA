@@ -1,0 +1,8 @@
+the process of binding properties and behaviour is called encapsulation
+
+the class contains 
+	variables
+	methods
+	constructor
+	instance block
+	static block          it is called encapsulation
