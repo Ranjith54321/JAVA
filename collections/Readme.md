@@ -21,7 +21,7 @@
 	
 cloning and serialization is common for both List and Set classes
 
- both defaultly implements Clonable and Serializable interface
+both defaultly implements Clonable and Serializable interface
 
 	
 ********************** Map  :**************************************
@@ -32,4 +32,4 @@ cloning and serialization is common for both List and Set classes
 
 	Properites folder
 
-see queue in internet
+see queue in the internet
