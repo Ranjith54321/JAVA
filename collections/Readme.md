@@ -9,7 +9,7 @@
 
 	see->  dataSorting
 
-************	Setclasses :*************************
+*********** Setclasses :*************************
 
 	1.) HashSet
 
@@ -21,10 +21,10 @@
 	
 cloning and serialization is common for both List and Set classes
 
- both defaultly implements Colnable and Serializable interface
+ both defaultly implements Clonable and Serializable interface
 
 	
-********************** Map  **************************************
+********************** Map  :**************************************
 
       see inside this folder
 

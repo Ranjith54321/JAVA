@@ -1,5 +1,5 @@
 /*
-		4.)   TreeMap(Comparator<? super K> comparator)  // you your win sort logic using Comparator
+		4.)   TreeMap(Comparator<? super K> comparator)  // you your won sort logic using Comparator
 					Constructs a new, empty tree map, ordered according to the given comparator.
 
 */

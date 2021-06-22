@@ -5,7 +5,7 @@
 	contains()		|			containsAll()
 	remove()		|			removeAll()
 					|
-					|	removeAll()		|			retainAll()   (the both are handins collection of data)
+					|	removeAll()		|			retainAll()   (the both handles collection of data)
 --------------------------------------------------------
 */
 package com.dss;

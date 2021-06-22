@@ -13,7 +13,7 @@
 		         ****All collection classes can implement Colanable Inteface an d Serializbale inteface ****
 		         here we see cloning only
 */
-class A implements Cloneable{  // coneable is the one of the inbuild interface 
+class A implements Cloneable{  // clonable is the one of the inbuild interface 
 									// here it is used to clone the object nothing but we back-up the object
 	int a = 111;
 	int b = 555;

@@ -9,9 +9,9 @@
 
  			for this LinkedList is more good bcoz: 
 
- 				ArraList -> we need to traverse the elements for any kiind of insertion(mid,end,start) ***it is like an array****
+ 				ArraList -> we need to traverse the elements for any kind of insertion(mid,end,start) ***it is like an array****
 
- 				LinkedList -> we just add between the two nodes just point the node's that's it
+ 				LinkedList -> we just add between the two nodes just point the node that is it
 
  		2.) Searching :
 
@@ -36,6 +36,6 @@
  				ArrayList -> it has implements one interface that is randomaccess interface 
  						it is a marker interface (you know about it see the note book) so it provides fast data accessing capability  (vector also have this interface)
 
- 				LinkedList -> we can access data here also but not here no interfaceor something but slow 
+ 				LinkedList -> we can access data here also but not here no interface or something but slow 
 
  		5.) 

@@ -1,10 +1,10 @@
 /*
 										LinkedList
 				1.) introduced in 1.2
-				2.) accespts hetrogenious data
+				2.) accepts hetrogenious data
 				3.) accepts null values
 				4.) allows duplicates
-				5.) insertion order is preserved (prder not change)
+				5.) insertion order is preserved (order not change)
 				6.) non-synchronize
 				7.) it's Under lying data structure is Doubly linked list
 				8.) suppoted cursors -> 1. Iterator 2. ListIterator 

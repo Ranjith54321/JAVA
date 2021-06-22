@@ -57,4 +57,4 @@ class Ac{
 
 when ever the memory is extends the contents are should copy
 
-that'd ' why ArrayList is slower than array************ 
+that is why ArrayList is slower than array************ 

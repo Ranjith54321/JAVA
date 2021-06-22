@@ -56,7 +56,7 @@ class set1{
 		h.add("ranjith");
 		h.add("abc");
 		h.add("dot");
-		h.add("ranjith"); // this will not taken bcoz duplocates are not allowed in set so next first value is taken
+		h.add("ranjith"); // this will not taken bcoz duplicates are not allowed in set so next first value is taken
 
 		System.out.println("HashSet order preserved : "+h); // order is not preserved
 
@@ -69,7 +69,7 @@ class set1{
 		lh.add("ranjith");
 		System.out.println("LinkedHashSet order preserved : "+lh);
 
-		// here you can chech next value is not allowed
+		// here you can check next value is not allowed
 		HashSet<String> h2 = new HashSet<String>();
 		System.out.println(h2.add("ranjith")); // true
 		System.out.println(h2.add("ranjith")); // false

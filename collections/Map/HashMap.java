@@ -5,7 +5,7 @@
 
 	-> Hetrogenious data allowed
 
-	-> null values allowed but key one time null  for vallue any no of time  null
+	-> null values allowed but key one time null  for value any no of time  null
 
 	-> methods are non-synchronized (bcoz 1.2 )
 

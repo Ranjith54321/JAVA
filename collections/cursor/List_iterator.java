@@ -4,7 +4,7 @@
 		1.) introdued in 1.2
 		2.) it only supports List classes 
 		3.) so ,it is not universal cursor
-		4.) get the obj using listIterator() mrthod
+		4.) get the obj using listIterator() method
 		5.) there are 9 methods are there [----> use javap command to check javap java.util.ListIterator]
 		6.) it has all operations
 		7.) it is a Bi-directional curosor

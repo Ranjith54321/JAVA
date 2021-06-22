@@ -6,7 +6,7 @@
 				3.) Stack (child class of vector)
 				4.) LinkedList
 
-				here we looking for ArrayList 
+				here we are looking for ArrayList 
 
 					it's underlying data structure is resizeable array
 */

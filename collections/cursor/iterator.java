@@ -1,6 +1,6 @@
 /*
 		Iterator : 
-		it is intriduced in 1.2 version
+		it is introduced in 1.2 version
 
 		it supports both legacy and normal collection classes  
 

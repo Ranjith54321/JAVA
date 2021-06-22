@@ -11,3 +11,5 @@
 		set classes only support iterator
 
 		Enumeration curosr is only for legacy classes so it supports Vector only
+
+		only Vector supports all cursors

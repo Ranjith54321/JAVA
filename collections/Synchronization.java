@@ -21,3 +21,5 @@
 					List l = Collections.SynchronizedList(new LinkedList(...));
 
 				like wise see the Set and Map in Java api document in web
+
+				see this link : https://stackoverflow.com/questions/21507858/what-is-the-difference-between-synchronized-and-non-synchronized-collection-clas

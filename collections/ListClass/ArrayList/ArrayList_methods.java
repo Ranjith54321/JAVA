@@ -29,7 +29,7 @@ class Ab{
 		//2.) remove
 		  // by default it take indexvalue you can pass obj also
 		// if index value is larger than the size then it shows index out of bound exception
-		// if you pass obj if it is not availale it won't case any error
+		// if you pass obj if it is not availale it won't cause any error
 		a.remove("10"); // obj  this can't recognize
 		a.remove("dot"); // obj
 		a.remove(1); // index

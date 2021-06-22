@@ -2,7 +2,7 @@
 	-> if we use hetrogenioud arraylist ((or) collection)  this is not type safe we need to 
 	    performe ->type check  and ->type caste
 	-> also it not categorised so it make huge problem
-	-> so to avoid this problem we going with generics (it is nothing but specify the class type)
+	-> so to avoid this problem are we going with generics (it is nothing but specify the class type)
 */
 package com.dss;
 import java.util.ArrayList;

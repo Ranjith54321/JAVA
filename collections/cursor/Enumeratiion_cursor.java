@@ -48,7 +48,7 @@
 
 		ArrayList is introduced in 1.2 so is not a legacy class 
 
-		so Enumuration nit support
+		so Enumuration not support
 
 	 	F:\java\collections\ArrayList>javap java.util.Enumeration
 	Compiled from "Enumeration.java"
@@ -73,7 +73,7 @@ class Ab{
 		// read the data by using Enumeration : normal version 
 		Enumeration e = v1.elements(); // get the data from vector in object type
 		while(e.hasMoreElements()){
-			String s = (String)e.nextElement();  // conert object tye to String
+			String s = (String)e.nextElement();  // convert object type to String
 			System.out.println(s);
 			/*Object o = e.nextElement();     // you can try this 
 			if(o instanceof String)

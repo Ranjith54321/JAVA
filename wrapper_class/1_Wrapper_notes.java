@@ -52,7 +52,7 @@ Integer i2 = new Integer("10");
 
 
 Float f1 = new Float(10.50); // double
-Float f2 = new Float(10.5f);         float onlysupports there approaches
+Float f2 = new Float(10.5f);         only float  supports there approaches
 Float f3 = new Float("10");
 
 

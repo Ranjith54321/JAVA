@@ -13,7 +13,7 @@
 
 		   		it internally has compareTo() method it compares two objc 
 
-		   				eg : ranj and  abc  lets take fisr letter of both
+		   				eg : ranj and  abc  lets take first letter of both
 		   				       
 		   				       ran , ran return 0 --> nochange 
 		   				       ran , abc return +ve value  --> need to swap
