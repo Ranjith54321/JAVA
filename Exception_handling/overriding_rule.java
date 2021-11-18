@@ -32,7 +32,7 @@ overriding_rule.java:21: error: m1() in child cannot override m1() in parent
   overridden method does not throw InterruptedException
 1 error
 
-Rule 2 : 
+Rule 2 : //------------------------- Rule 2 -------------------------/
 
 if parent throws Exception but child not throws any Exception is valid
 

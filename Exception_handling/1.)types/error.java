@@ -1,7 +1,7 @@
 /*
 	error is heappended due to lack of system resources and some kind of net work error's
 
-	also heappens duo to developer mistakes
+	also heappens due to developer mistakes
 
 	we can't able to handle the error's 
 

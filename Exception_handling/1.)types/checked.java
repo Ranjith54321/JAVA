@@ -1,9 +1,9 @@
 /*
 	checked Exception :
 
-	these error msg is showd by the compilor before the run of the application
+	these error msg is showed by the compilor before the run of the application
 
-	but this exception are inly heappen only while compiling the programe 
+	but this exception are only heappen while compiling the programe 
 
 	so you can call it as run compile exception
 

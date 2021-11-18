@@ -101,7 +101,7 @@ key points :
 
   study Sequence : 
 
-  		1.) normal innner class
+  	1.) normal innner class
 		2.) method local inner class
 		3.) static nested class
 		4.) anonumous Inner class

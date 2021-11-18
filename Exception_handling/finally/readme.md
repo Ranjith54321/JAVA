@@ -2,7 +2,7 @@
 
 	finally block comes with try block 
 
-	you can use try -> catch -> finaly
+	you can use try -> catch -> finally
 
 	or
 

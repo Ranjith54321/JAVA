@@ -4,7 +4,7 @@
 
  	1.) try - catch
 
- 	2.) try - final
+ 	2.) try - finally
 
  	3.) try - resourses
 

@@ -1,5 +1,5 @@
 /*
-is you use anony,ous inner class inside the main method no need to  create obj for the main class
+if you use anonymous inner class inside the main method no need to  create obj for the main class
 
 */
 class client2{

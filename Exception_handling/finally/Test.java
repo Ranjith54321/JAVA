@@ -44,7 +44,7 @@ finally block
 
 */
 /*
-// case 3 : AbNormal Tesrmonation
+// case 3 : AbNormal Termination
 class Test{
 	public static void main(String[] args) {
 		try{
@@ -75,7 +75,7 @@ class Test{
 		try{
 			System.out.println(10/0);
 		}
-		catch(ArithmeticException e){ // exception is not matched
+		catch(ArithmeticException e){ // exception is matched but here also Exception rasing
 			System.out.println(10/0);
 		}
 		finally{
@@ -98,18 +98,18 @@ class Test{
 		try{
 			System.out.println(10/0);
 		}
-		catch(ArithmeticException e){ // exception is not matched
+		catch(ArithmeticException e){ // exception is  matched
 			System.out.println(10/0);
 		}
 		finally{
-			System.out.println(10/0);
+			System.out.println(10/0);  > this Exception message only will execute
 		}
 	}
 }
 
 op :
 F:\java\Exception_handling\finally>java Test
-Exception in thread "main" java.lang.ArithmeticException: / by zero
+Exception in thread "main" java.lang.ArithmeticException: / by zero => this is finally block Exception
         at Test.main(Test.java:105)
  */
 

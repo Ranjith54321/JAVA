@@ -142,7 +142,7 @@ Test.java:125: error: 'catch' without 'try'
 */
 
 /*
-//Eg : 7 : only try block exception only allowed other than that shoes exception 
+//Eg : 7 : only try block exception only allowed other than that shows exception 
 
  class Test{
 	public static void main(String[] args) {

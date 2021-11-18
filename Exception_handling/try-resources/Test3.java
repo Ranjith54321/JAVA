@@ -1,4 +1,4 @@
-// bby using try block we can declare multiple resources also
+// by using try block we can declare multiple resources also
 
 // they are separated by ; 
 

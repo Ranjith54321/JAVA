@@ -23,3 +23,7 @@ you entered : 2*/
 try with esources  not going to perform any Exception handling work 
 
 you can uncommand the sleep and 10/0 to check the diff 
+
+here for un-checked Exception the program will run time
+
+but for checked Exception catch is must otherwise we can't run the program

@@ -17,7 +17,7 @@
 
 	here we careate object from separate class
 
-	for more notes see the pdf book by ratan also see these eg also
+	for more notes see the pdf book by ratan also see these eg also pg.no : 295
 
 */
 class Outer{

@@ -1,4 +1,4 @@
-        ----------------Wrapper class -------------  (--- for more you can see java by ratan pdf  -----)
+        ----------------Wrapper class -------------  (--- for more you can see java by ratan pdf  pg no : 217 -----)
         comes uder java.lang package     
 
 ---> there are 8 data types in java 
@@ -27,15 +27,15 @@ why we convert in to Object formate:
 
 
 						      	  Object class (parent)
-						        |              |                |
+						       						 |              |                |
   (child class of Object ) 1. Character   2. boolean        3.Number  
 
-  															1. byte     (these are child class of Number)
-  															2. short
-  															3. int
-  															4. long
-  															5. float
-  															6. double   
+															  															1. byte     (these are child class of Number)
+															  															2. short
+															  															3. int
+															  															4. long
+															  															5. float
+															  															6. double   
   	-->  Character and boolean only direct children of object class
 
 
@@ -52,7 +52,7 @@ Integer i2 = new Integer("10");
 
 
 Float f1 = new Float(10.50); // double
-Float f2 = new Float(10.5f);         only float  supports there approaches
+Float f2 = new Float(10.5f);         only float  supports three approaches
 Float f3 = new Float("10");
 
 

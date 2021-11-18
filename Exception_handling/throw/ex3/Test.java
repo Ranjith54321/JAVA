@@ -18,7 +18,6 @@ class Test{
 		}
 		catch(InvalidAgeException i){
 			System.out.println(i);
-
 		}
 	}
 }

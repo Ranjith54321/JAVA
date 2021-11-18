@@ -1,7 +1,7 @@
 /*
 					HashMap
 
-					-> from 1.2 vrsion
+	-> from 1.2 vrsion
 
 	-> Hetrogenious data allowed
 
@@ -25,7 +25,7 @@
 
 	HashMap : insertion order not preserved   but  **********
 
-						LinkedHashMap : insertion order is preserved   
+	LinkedHashMap : insertion order is preserved   
 
 			Constructors use java API document on browser
 
@@ -71,7 +71,7 @@ class hashmap{
 	}
 }
 
-  / -->  get(Object key)	This method returns the object that contains the value associated with the key.
+ // -->  get(Object key)	This method returns the object that contains the value associated with the key.
 /*
 output : 
 		[561, 177, 999, 11]
