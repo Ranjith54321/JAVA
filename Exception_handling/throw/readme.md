@@ -1,10 +1,10 @@
 #throw
 
-throw is mainly used for to careate user defined exception 
+throw is mainly used for to create user defined exception 
 
 so to create user defined exception there are two setps :
 
-	1.) careet exception class 
+	1.) create exception class 
 
 	2.) use that exception in your project
 

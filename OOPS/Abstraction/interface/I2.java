@@ -1,6 +1,6 @@
 interface I2{   // by default anstract
-	int a = 10; // by defaultpublic static final
-	void m1();  // by default public abtract 
+	int a = 10; // public static final int a = 10;
+	void m1();  // public abtract void m1();
 }
 class A2 implements I2{
 	public void m1(){

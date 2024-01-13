@@ -22,7 +22,7 @@ class child5 extends parent5{
 	public static void main(String[] args){
 		parent5 p = new child5();
 		p.m1();  // compile time --> it check m1 method in parent class runtime-> execute child class
-		//p.m2();  // compile time it check m2 method in parent class it is not available so it shows error 
+		//p.m2();  // compile time it check m2 method in parent class it is not available so it shows error [Important**]
 
 		     // parent reference variable excecute when the methods are available on the both the classes
 

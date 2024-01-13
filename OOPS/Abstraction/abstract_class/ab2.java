@@ -16,14 +16,14 @@ abstract class A2 extends ab2{ // if you not declare m2 or m1 here this class is
 	}
 }
 class B2 extends A2{
-	void m2(){					// so object creation is not possible
+	void m2(){					
 		System.out.println("m2 method");
 	}
 	void m4(){
 		System.out.println("m4 method");
 	}
 	public static void main(String[] args){
-		//A2 b = new A2();
+		//A2 b = new A2(); //  object creation is not possible
 		//b.m1();
 		B2 a = new B2();
 		a.m1();

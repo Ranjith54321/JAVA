@@ -13,4 +13,5 @@ class child5_1 extends parent5_1{
 		parent5_1 p = new child5_1();
 		p.m1();   // if you exceute here parent class method only exceue because refence variable belongs to parent **
 	}				// this will not show any error but this is not overrinding
+					// IF you have child referance variable then child method will execute.
 }

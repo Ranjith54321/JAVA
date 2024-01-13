@@ -31,8 +31,6 @@ types of exception :
 	2.) un-checked
 	3.) error
 
-	-> here un-checked is : 
-
-	-> not checked by the compilor
+	-> here un-checked is : not checked by the compilor
 
 	-> the exception which are child class of run time exception is called un-checked exception

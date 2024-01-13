@@ -1,5 +1,7 @@
 // inter face is pure abstract class it contains only method declarations the implementations are in child classes
-// iterface is defaultly abstract class ,,   methods are defaultly public abstract // variables are public static final
+// iterface is pure abstract class ,,   
+// methods are  public abstract 
+// variables are public static final
 interface I1{
 	void m1();
 	void m2();

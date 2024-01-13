@@ -22,3 +22,14 @@ class A3 extends ab3{
 
 	}
 }
+/*
+ 
+O/P:
+
+this is abstract parent static block
+this is abstract parent class instance block
+this is abstract parent class constructor
+120
+
+
+ */

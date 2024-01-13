@@ -1,3 +1,4 @@
+/* 
 1.) interface with inheritance
 
 eg: 1 )
@@ -75,3 +76,4 @@ class A extends  class A   ------invalid
 
 
 
+*/

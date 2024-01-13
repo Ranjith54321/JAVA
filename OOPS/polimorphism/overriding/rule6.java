@@ -22,8 +22,11 @@ class child6 extends parent6{
 
 /// this is out-put console error:
 
-
+/*
+ 
 rule6.java:18: error: m1() has private access in parent6
                 c.m1();
                  ^
 1 error
+
+ */

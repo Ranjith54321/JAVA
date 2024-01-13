@@ -1,7 +1,7 @@
 // marker interface doen't contain any method , (empty class how provide functionality? )
 			   //it provides some fucntionality that are given by JVM 
-class A implements Cloneable{  // coneable is the one of the inbuild interface 
-									// here it is used to clone the object nothing but we back-up the object
+class A implements Cloneable{  // cloneable is the one of the inbuild interface 
+									// here it is used to clone the object i.e,  we back-up the object
 	int a = 111;
 	int b = 555;
 	public static void main(String[] args) throws Exception {

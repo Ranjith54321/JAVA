@@ -6,7 +6,7 @@ abstract class ab1{
 	abstract void m2();
 	abstract void m3();
 }
-class A1 extends ab1{ // if you not declare m2 or m1 here this class is still abstract class bcoz it contains un implemented abstact method 
+class A1 extends ab1{ // if you not declare m2 or m1 here this class is still abstract class bcoz it contains unimplemented abstact method 
 	void m2(){					// so object creation is not possible
 		System.out.println("m2 method");
 	}

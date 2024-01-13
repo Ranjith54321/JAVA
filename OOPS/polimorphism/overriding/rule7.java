@@ -70,3 +70,5 @@ class child7 extends parent7{
 //-------------------------------------------------------------------------------------------------------------
 
 like wise other also see
+
+// Check the Access modifiers Table here : https://www.javatpoint.com/access-modifiers
