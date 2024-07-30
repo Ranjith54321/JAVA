@@ -54,7 +54,7 @@ class bst1{
 			else{
 				Node t = findsmall(tree.right);
 				tree.data = t.data;
-				t.right = del(tree.right,t.data);
+				tree.right = del(tree.right,t.data);
 			}
 		}
 		return tree;
