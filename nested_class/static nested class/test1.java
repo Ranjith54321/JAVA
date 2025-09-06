@@ -1,7 +1,9 @@
 class Outer{
 		static int a=10,b=20;
 		static class Inner{
-			void add(){ System.out.println(a+b);}
+			int c=30;
+			void add(){ System.out.println(a+b);
+		}
 	}
 	public static void main(String[] args) {
 		new Outer.Inner().add();

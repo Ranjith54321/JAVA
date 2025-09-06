@@ -25,7 +25,7 @@ class AL1{
 	}
 }
 
-// from this we can under statnd
+// from this we can understand
 
 /*
 	collection support :

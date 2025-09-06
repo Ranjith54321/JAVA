@@ -6,7 +6,9 @@
 
 					like TreeSet int TreeMap also data is in sorted order
 
-					so to perform tree set follwing coditions must needed
+					TreeMap in Java does not accept null keys
+
+					so to perform tree set following conditions must needed
 						1-> data must be homogenious
 						2-> data should implements  comparable interface (String and Wrapper class defaultly implements comparable )
 							but when you use user defined data then it should be in mind
@@ -15,7 +17,7 @@
 
 
 
-			Constructor and Description : (4 consrutors)
+			Constructor and Description : (4 construtors)
 
 				1.) TreeMap()  // it default so it defaultly implemets Comparable 
 					Constructs a new, empty tree map, using the natural ordering of its keys.

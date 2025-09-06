@@ -21,7 +21,7 @@ try block
 finally block */
 
 /*
-// case 2 : Normal Tesrmonation
+// case 2 : Abnormal Termination
 class Test{
 	public static void main(String[] args) {
 		try{
@@ -102,15 +102,16 @@ class Test{
 			System.out.println(10/0);
 		}
 		finally{
-			System.out.println(10/0);  > this Exception message only will execute
+			 System.out.println("ranjith".charAt(100));  //> this Exception message only will execute
 		}
 	}
 }
 
 op :
-F:\java\Exception_handling\finally>java Test
-Exception in thread "main" java.lang.ArithmeticException: / by zero => this is finally block Exception
-        at Test.main(Test.java:105)
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 100
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
+	at java.base/java.lang.String.charAt(String.java:693)
+	at org.example.Test.main(AnonymousInnerClass.java:31)
  */
 
  // case 6 : try and finally only

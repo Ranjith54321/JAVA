@@ -23,4 +23,4 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
         at Test2.main(Test2.java:13)
 
 
-      so jvm usees printStackTrace() method to display the Exeption
+      so jvm uses printStackTrace() method to display the Exeption

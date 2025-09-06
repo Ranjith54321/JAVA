@@ -23,7 +23,7 @@
 
 	supported modifiers words :
 
-	Outre classes : public, default, final, abstract, strictfp
+	Outer classes : public, default, final, abstract, strictfp
 	Inner classes : public, default, final, abstract, strictfp, static, private, proteted
 
 */
@@ -33,7 +33,7 @@
 class Outer{
 	void m1(){
 		abstract class Inner1{
-			void m2(){ System.out.println("Inner class abstract method");}
+			void m2(){ System.out.println("Inner class abstract-calss method");}
 		}
 		class B extends Inner1{
 			void m3(){ System.out.println("Inner class normal method");}
@@ -50,16 +50,16 @@ class Outer{
 /*
 	output : 
 
-	Inner class abstract method
+	Inner class abstract-calss method
 	Inner class normal method
 
 */
 
-	normal example :  
+	// normal example :  
 
-	class Outer{
+class Outer{
 	void m1(){
-	class Inner1{
+		class Inner1{
 			void m2(){ System.out.println("Inner class abstract method");}
 		}
 		new Inner1().m2();
@@ -67,4 +67,21 @@ class Outer{
 	public static void main(String[] args) {
 		new Outer().m1();
 	}
+}
+
+
+
+
+	// inner class in staic method also possible:
+
+class Outer2 {
+    static void m1() {
+        class Inner1{
+            void m2(){ System.out.println("Inner class abstract method");}
+        }
+        new Inner1().m2();
+    }
+    public static void main(String[] args) {
+         Outer2.m1();
+    }
 }

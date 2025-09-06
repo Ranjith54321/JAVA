@@ -28,9 +28,10 @@ import java.util.Stack;
 class st{
 	public static void main(String[] args) {
 		Stack<String> s = new Stack<String>();
-		s.push("ranjith");                        // 
+		s.push("ranjith");
 		s.push("dot");
 		s.push("doc");  //-----> 1. push()
+		s.push("ranjith");              
 
 		System.out.println("stack : "+s);
 
@@ -49,6 +50,13 @@ class st{
 		System.out.println("stack is empty : "+s.empty());
 
 
-
 	}
 }
+
+## output:
+stack : [ranjith, dot, doc, ranjith]
+top of the stack : ranjith
+search the obj in stack : 1
+after pop of the stack : [ranjith, dot, doc]
+stack is empty : false
+stack is empty : true

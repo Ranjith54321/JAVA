@@ -13,7 +13,7 @@
 
 	  	-> it is default constructor
 	  	-> dfault capacity = 10
-	  	-> if you add morethan that then automatically  new capacity = old*(3/2)+1 = 16
+	  	-> if you add more than that then automatically  new capacity = old*(3/2)+1 = 16
 
 	2.) public java.util.ArrayList(int)
 

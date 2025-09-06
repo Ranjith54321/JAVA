@@ -1,11 +1,11 @@
 /*
-	error is heappended due to lack of system resources and some kind of net work error's
+	error is heappended due to lack of system resources and some kind of network error's
 
 	also heappens due to developer mistakes
 
-	we can't able to handle the error's 
+	we can't handle the error's 
 
-	but we can possible to handle the Exception's
+	but we have possible to handle the Exception's
 
 */
 class test3{

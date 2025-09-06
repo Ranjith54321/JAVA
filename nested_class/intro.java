@@ -44,7 +44,8 @@ key points :
   ---> like wise Inner class obj can only access Inner Properties
       like i.x i.y and i.m2()
 
-4.) inner class methods can access outer class methods
+4.) inner class methods can access outer class methods and variables (can access private properties also), 
+			but via inner class object cannot access the outer class method or attribute...
 
 		outer class cannot access inner class method or any data
 

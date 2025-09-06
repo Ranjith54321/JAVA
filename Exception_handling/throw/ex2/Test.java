@@ -17,7 +17,7 @@ class Test{
 	}
 }
 
-// as you know this is checked exception so we need to handle it
+// as you know this is un-checked exception JVM will handle it.
 
 // either you can handle using try-catch or throws
 

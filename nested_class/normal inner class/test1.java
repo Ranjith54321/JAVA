@@ -13,7 +13,7 @@
 
 	in this example we see
 
-	inner class can access outer class private properties and methods
+	inner class methods can access outer class private properties and methods
 
 	here we careate object from separate class
 
@@ -42,6 +42,9 @@ class test1{
 
 		o.m1();
 		i.m2();
+		//System.out.println(" private pro : " + i.a); // it is not possible.
+		//System.out.println(" private pro : " + i.b); // it is not possible.
+		// inner obj can not access any members or methods of Outer class.
 	}
 }
 

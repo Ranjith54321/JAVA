@@ -6,18 +6,19 @@
 ---> so,to represent premetive data types in the from of objects we use wrapper class
 
 data type:
-	byte
-	short
-	int 
-	long
-	float
-	double
-	char
-	boolean
+	byte    - 1 byte
+	short   - 2 byte
+	int     - 4 byte
+	long    - 8 byte
+	float   - 4 byte
+	double  - 8 byte
+	char    - 2 byte
+	boolean - 1 bit
 
-why we convert in to Object formate:
+why we convert in to Object format:
   
-      bcoz:   collection f/w supports : 1. only Object data
+      bcoz:   collection f/w supports :
+      									1. only Object data
       									2. serialization
       									3. cloneing Process
       									4. Object data allow null value
@@ -26,7 +27,7 @@ why we convert in to Object formate:
 
 
 
-						      	  Object class (parent)
+						      	                 Object class (parent)
 						       						 |              |                |
   (child class of Object ) 1. Character   2. boolean        3.Number  
 

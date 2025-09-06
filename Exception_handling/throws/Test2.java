@@ -54,7 +54,7 @@ sleep2
 java.io.FileNotFoundException: abc.txt (The system cannot find the file specified)
 
 */
- 	// case 4: instead of throwing multiple exception yo can simply pass the Exception class
+// case 4: instead of throwing multiple exception yo can simply pass the Exception class
 import java.io.*;
 class Test2{
 	void m2() throws Exception{

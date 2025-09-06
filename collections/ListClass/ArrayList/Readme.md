@@ -7,7 +7,7 @@ ArrayList:
 
 	2.) Test1 it uses Emp and Student 
 
-	3.) Test2 (Genirics ) uses Emp and Studet class
+	3.) Test2 (Generics) uses Emp and Studet class
 
 	4.) ArrayList_methods
 

@@ -13,10 +13,10 @@ class Ag{
 		a1.add(20);
 		a1.add(30);
 
-		Collections.swap(a1,0,2);
+		Collections.swap(a1,0,2); // swap 10 and 30
 		System.out.println(a1);
 
-		ArrayList<Integer> a2 = new ArrayList<Integer>(a1.subList(0,2)); // 30 will not include 
+		ArrayList<Integer> a2 = new ArrayList<Integer>(a1.subList(0,2)); // /0 will not include 
 		a2.add(111);
 		System.out.println(a2);
 	}

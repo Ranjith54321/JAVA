@@ -1,6 +1,9 @@
-	//    Rule : 1  if parent class not contains any exception the child class can thorw only un-checked exception
+// Below all are based on overrinding the parent method. If child is using different method then no issues.
 
-	case  : 1
+
+Rule : 1  if parent class not contains any exception the child class can thorw only un-checked exception
+
+case  : 1
 
 class parent{
 	void m1(){}

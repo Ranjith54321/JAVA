@@ -1,10 +1,10 @@
 /*
-		we can handel the exception using try-catch block and throws key word
+		we can handle the exception using try-catch block and throws key word
 
 		try{
 		statement...(may or may not excecute)
 		}
-		catch(Exception passed byt the try block){
+		catch(Exception passed by the try block){
 		statement..(it will execute when exception raised)
 		}
 */
@@ -197,7 +197,7 @@ hello bot
 			System.out.println("developer");
 			System.out.println("life");
 			
-	   }
+	   	}
 		catch(ArithmeticException ae){
 			System.out.println(10/2);
 		}

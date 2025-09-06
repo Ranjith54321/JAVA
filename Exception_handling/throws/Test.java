@@ -2,21 +2,21 @@
 		2 ways to handle the exception :
 
 		1.) try-catch block
-		2.) throws key word     Note all examples care fully catch block is here not excute see why 
+		2.) throws key word     Note: all examples carefully catch block is here not excute see why 
 
 		try catch block can handle the excption by it self
 
 		but thorws pass the exception to caller method ****
 
 */
-		// case 1 handle using try-  catch block
+		// case 1 handle using try-catch block
 		/*
 class Test{
 	void hod(){
 		try{
-		System.out.println("student is sleeping");
-		Thread.sleep(1000);
-		System.out.println("student is sleeping2");
+			System.out.println("student is sleeping");
+			Thread.sleep(1000);
+			System.out.println("student is sleeping2");
 		}
 		catch(InterruptedException e){ 
 			System.out.println("again");// this will not excecute  // but we should handle the checked exception other wise it will not run
@@ -42,7 +42,7 @@ student is sleeping2
 
 */
 
-		// case 2 : handle using throws key word
+// case 2 : handle using throws key word
 // handled by one of the caller method 
 /*
 class Test{
@@ -51,13 +51,13 @@ class Test{
 		Thread.sleep(1000);
 		System.out.println("student is sleeping2");
 	}
-	void princepal(){
+	void principal(){
 		try{hod();}
 		catch(InterruptedException e){e.printStackTrace();} // for this op :student is sleeping -->after 1000 milli seconds
 										//               student is sleeping2
 	}
 	void helper(){
-		princepal();
+		principal();
 	}
 	public static void main(String[] args) {
 		Test t = new Test();
@@ -82,10 +82,10 @@ class Test{
 		Thread.sleep(1000);
 		System.out.println("student is sleeping2");
 	}
-	void princepal()throws InterruptedException{
+	void princepal() throws InterruptedException{
 		hod();
 	}
-	void helper()throws InterruptedException{
+	void helper() throws InterruptedException{
 		princepal();
 	}
 	public static void main(String[] args) throws InterruptedException{ // we thorw the exception here it pass to jvm 

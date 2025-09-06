@@ -64,7 +64,7 @@ class hashmap{
 		System.out.println(c);
 
 		// get entries(nothing but key value pairs) by using entrySet() method return type is Set
-		Set<Entry<Integer, String>> e = h.entrySet();  // here Entry is the interface here Etry contains two values  
+		Set<Entry<Integer, String>> e = h.entrySet();  // here Entry is the interface here Entry contains two values  
 		for(Entry<Integer, String> ee : e){					// so this entry is belongs to Map so tuned for key, value pair
 			System.out.println(ee.getKey()+" "+ee.getValue());
 		}

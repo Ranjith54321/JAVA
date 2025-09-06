@@ -13,9 +13,9 @@ so to create user defined exception there are two setps :
  ---------------------------------
 
  		1.) user checked exception :
- 		```java
+ ```java
 
- 			class Myexception extends Exception  <-- see here carefully
+ 			class Myexception extends Exception  // <-- see here carefully
  			{
 
  		}
@@ -28,9 +28,9 @@ so to create user defined exception there are two setps :
 
 
  		 2.) user un-checked exception : (check what type it is using video)
- 		```java
+ ```java
 
- 			class Myexception extends RuntimeException <-- see here carefully
+ 		class Myexception extends RuntimeException // <-- see here carefully
  			{
 
  		}

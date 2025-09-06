@@ -1,5 +1,5 @@
 /*
-							here progarm shows hoe to remove data based on key's
+							here progarm shows how to remove data based on key's
 
 */
 
@@ -43,7 +43,7 @@ class Test{
 		// remining
 		System.out.println("After Delete: ");
 		Set<Entry<Integer, Product>> ent = lh.entrySet();
-		Iterator<Entry<Integer, Product>> i2 = ent.iterator();
+		Iterator<Entry<Integer, Product>> i2 = ent.iterator(); // we are iterating the Set class not Map.
 		while(i2.hasNext()){
 			Entry<Integer, Product> ee2 = i2.next();
 			Integer in2 = ee2.getKey();

@@ -37,7 +37,7 @@ class comp implements Comparator<Product>{
 
 // output :
 
-/*			it is sorted desscedning order based ir Product id see carefully
+/*			it is sorted descedning order based ir Product id see carefully
 	product :  -> id : 46   name : domi
 	customer :  -> id : 64   name : mine
 	product :  -> id : 12   name : NS

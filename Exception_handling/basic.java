@@ -34,3 +34,7 @@ types of exception :
 	-> here un-checked is : not checked by the compilor
 
 	-> the exception which are child class of run time exception is called un-checked exception
+
+	-> The Throwable class is the superclass of all Java exceptions and errors
+
+	-> Check the Notion

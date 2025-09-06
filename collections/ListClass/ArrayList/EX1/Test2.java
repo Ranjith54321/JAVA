@@ -40,7 +40,7 @@ public class Test2{
 
 // from here hide
 
-*****notws ******   is you whant to run hide this 
+*****notes ******   is you whant to run hide this 
 so in collection : hetrogenious operations are not recommended 
 					use generics to use homogenious data
 

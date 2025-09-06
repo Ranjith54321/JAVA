@@ -43,9 +43,7 @@ class Ae{
 
 		a2.retainAll(a1);
 
-		// a2.retainAll(a1);  --> remove all a2 obj's a1 will safe
-
-
+		// a2.retainAll(a1);  --> a2 contains only the objects that exist in both a2 and a1.
 
 
 		for(Emp ee : a2){

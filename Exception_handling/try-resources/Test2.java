@@ -28,7 +28,7 @@ class Test2{
 		try(FileInputStream fis = new FileInputStream("abc.txt")){
 			System.out.println("not come");
 		}
-		catch(IOException e){ // it is parent if FileNotFoundException
+		catch(IOException e){ // IOException is parent of FileNotFoundException
 			System.out.println("Exception "+e);
 		}
 	}

@@ -34,7 +34,7 @@ op :
 
 java.lang.ArithmeticException: / by zero --> (1)ref-variable
 
-/ by zero                                -- >(2) getMessage()
+/ by zero                                --> (2) getMessage()
 
 java.lang.ArithmeticException: / by zero --> (3) printStackTrace()
         at Test1.m3(Test1.java:14)

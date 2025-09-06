@@ -3,10 +3,10 @@
 	------------------------------------------------------------
 	->	introduced in 1.2      | introduced it 1.0
 
-	->	it is non-syncronized  | it is synchronized  (here thread safty)  forther see in multi threading vide (not yet see)
+	->	it is non-syncronized  | it is synchronized  (here thread safty)  forther see in multithreading video (not yet see)
 	----------------------------------------------------------
 
-	here we looking for vector contructos   [--> javap java.util.vector]
+	here we looking for vector constructors   [--> javap java.util.vector]
 
 	1.) public java.util.Vector();  it is normal version
 				dfault capacity = 10

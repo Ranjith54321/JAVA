@@ -28,7 +28,9 @@ class Outer{
 
 
 /*
-	inside the inner class it is not able to declare the static members hence the inner classes it not possible to declare main because main is static 
+	inside the inner class it is unable to declare the static members hence the inner classes it not possible to declare main because main is static
+
+	-> But, it seems java 16+ supports static members need to check..
 
 	but we can careate final constant variables as static eg :
 

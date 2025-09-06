@@ -8,7 +8,7 @@
 
 		after try block the exception's that are mentioned inside your catch block need not be present in the try block 
 
-	## 2.) for checked exception :  ->test2
+	## 2.) for checked exception :  -> test2
 
 		after try block the exception's that are mentioned inside your catch block must be present in the try block 
 

@@ -35,7 +35,7 @@ class Test1{
 		lh.add(new Emp(39,"abc"));
 		lh.add(new Emp(444,"ranjith"));
 
-		Iterator<Emp> i = lh.iterator(); // negeric
+		Iterator<Emp> i = lh.iterator(); // generic
 		while(i.hasNext()){
 			Emp e = i.next();
 			if(e.id==1)

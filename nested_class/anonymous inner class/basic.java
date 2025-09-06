@@ -1,9 +1,9 @@
 /*
-anaonymous inner class :
+anonymous inner class :
 
 	nameless inner class in java is called anonymous inner class
 	
-it basically over rides the repeated method inthe class 
+it basically over rides the repeated method in the class 
 
 without anaonymous class  :
 
@@ -39,10 +39,11 @@ class A{
 class client{
 	A a = new A(){
 		void m1(){ System.out.println("m1 method unsing anonymous iner class");}
-		void m2(){ System.out.println("m2 method unsing anonymous iner class");
-		System.out.println(a.getClass().getName());}
-
-	}; // here ';' is mandotary
+		void m2(){ 
+			System.out.println("m2 method unsing anonymous iner class");
+			System.out.println(a.getClass().getName());
+			}
+		}; // here ';' is mandotary
 	public static void main(String[] args) {
 		client c = new client();
 		c.a.m1();
@@ -53,9 +54,38 @@ class client{
 /*
 	output :
 
-	mm1 method unsing anonymous iner class
+	m1 method unsing anonymous iner class
 	m2 method unsing anonymous iner class
 	client$1 // that 1 is internally created class
 
 */
 	see test4.java watched nareshIT video you can see this also...... aslo watch telusko video
+
+
+
+
+// even abtract class also possible to create obj:
+abstract class A{
+    abstract void m1();
+    abstract void m2();
+}
+class client{
+    A a = new A(){
+        void m1(){ System.out.println("m1 method unsing anonymous iner class");}
+        void m2(){ System.out.println("m2 method unsing anonymous iner class");
+            System.out.println(a.getClass().getName());}
+
+    }; // here ';' is mandotary
+    public static void main(String[] args) {
+        client c = new client();
+        c.a.m1();
+        c.a.m2();
+    }
+}
+
+
+output:
+
+m1 method unsing anonymous iner class
+m2 method unsing anonymous iner class
+org.example.client$1

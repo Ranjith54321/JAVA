@@ -15,7 +15,7 @@
 ---------------------------------------------------------------------------
 see the introduction in the java by ratan book pg : 317
 
-	-> from 1.2 vrsion
+	-> from 1.2 version
 
 	-> Hetrogenious data allowed
 
@@ -25,7 +25,7 @@ see the introduction in the java by ratan book pg : 317
 
 	-> uderlying datastructures : hashTable
 
-	-> keys must be unique value may be duplicate
+	-> keys must be unique. Value may be duplicate
 
 	-> to get only key  use keySet() method it's' return type Set 
 

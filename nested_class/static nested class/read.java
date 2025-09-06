@@ -26,6 +26,7 @@ difference :
  1.) can access both instance and static members
  2.) static declarations are not allowed
  3.) main method, static block not allowed
+			// but in our experiment, we can create static variables and methods but not main method. => Intellij IDE not allowed
  4.) obj creation : new Outer().new Inner();
 
 
@@ -41,7 +42,7 @@ difference :
 	 	}
 	 }
 
-	1.) it can ONLY access static members
+	1.) it can ONLY access static members *directly*
 	2.) static declarations are possible
 	3.) main methods, static blocks possible
 	4.) obj creation :

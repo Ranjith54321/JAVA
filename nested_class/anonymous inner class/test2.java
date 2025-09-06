@@ -1,5 +1,5 @@
 /*
-this below code implementation is normall way of implementing abstract class 
+this below code implementation is normal way of implementing abstract class 
 
 abstract  class A2{
 	abstract void m1();
@@ -15,7 +15,7 @@ class client{
 }*/
 
 // implement abstract class using anonymouse class
-abstract  class A2{
+abstract class A2{
 	abstract void m1();
 }
 class test2{ 
