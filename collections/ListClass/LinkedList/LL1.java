@@ -10,7 +10,7 @@
 				8.) suppoted cursors -> 1. Iterator 2. ListIterator 
 
 
-				linkedlist constrictors [--> see javap java.util.LikedList]
+				linkedlist constructors [--> see javap java.util.LikedList]
 
 			  public java.util.LinkedList();   -> 1
  			 public java.util.LinkedList(java.util.Collection<? extends E>);	->2

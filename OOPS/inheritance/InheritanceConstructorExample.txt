@@ -1,0 +1,56 @@
+// Not Valid:
+
+class Parent {
+    int n;
+    Parent(int n) {
+        this.n = n;
+    }
+}
+
+public class Test extends Parent {
+
+    public static void main(String[] args) {
+
+    }
+}
+
+// Valid:
+
+class Parent {
+    int n;
+    Parent(int n) {
+        this.n = n;
+    }
+}
+
+public class Test extends Parent {
+    Test(int n) { // you must create the mathcing constructor as parent. you will get this error in Intellij IDEA 
+        super(n);
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
+
+// Valid
+
+class Parent {
+    int n;
+
+    Parent() {
+    }
+
+
+    Parent(int n) {
+        this.n = n;
+    }
+}
+
+public class Test extends Parent {
+    // We have 0-arg Parent constructor. So, we already have matching child constructor.
+
+    public static void main(String[] args) {
+
+    }
+}

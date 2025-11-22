@@ -1,11 +1,11 @@
 /*
-			all collection classes support cloing and seriazlization
+			all collection classes support cloning and seriazlization
 
 			here we see colning on colllection 
 
 			it simply copy the data from the heap memory so the time will be saved (it will not take more time)
 
-			colne() method returns object so you need to  type caste it
+			clone() method returns object so you need to  type caste it
 
 */
 import java.util.ArrayList;

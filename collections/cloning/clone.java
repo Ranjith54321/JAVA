@@ -23,7 +23,7 @@ class A implements Cloneable{  // clonable is the one of the inbuild interface
 		System.out.println("a = "+q.b);
 		q.a = 1100;
 		q.b = 2200;
-		A h = (A)q.clone();                             // cole return type is object class
+		A h = (A)q.clone();             // colne return type is object class
 		System.out.println("a = "+q.a);
 		System.out.println("a = "+q.b);
 		q.a = 999;

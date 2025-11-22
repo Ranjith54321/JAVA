@@ -1,4 +1,4 @@
-// you can se both checked and un-checked exception but :
+// you can use both checked and un-checked exception but :
 
  /* un-checked exception's that are mentioned inside your catch block need not be present in the try block 
 			but checked exception's that are mentioned inside your catch block must be present in the try block */

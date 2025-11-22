@@ -13,8 +13,8 @@ import java.util.Iterator;
 import java.util.Map.Entry;
 
 class Test{
-	public static void main(String[] args) {
-		LinkedHashMap<Emp,Student> lh = new LinkedHashMap<Emp, Student>();
+	public static void main(String[] args) { 
+		LinkedHashMap<Emp,Student> lh = new LinkedHashMap<Emp, Student>(); // Note: in the Emp class We should have overriden the equals and hashCode methods.
 		lh.put(new Emp(1,"ranjith"),new Student(1,"dot"));
 		lh.put(new Emp(2,"Rs"),new Student(2,"race sport"));
 		lh.put(new Emp(3,"Ns"),new Student(3,"nacked sport"));

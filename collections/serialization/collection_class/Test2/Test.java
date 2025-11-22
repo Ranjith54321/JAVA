@@ -36,7 +36,7 @@ class Test{
 }
 
 // aother collwction classes also same procedure
-// you also serialize normal collection i,e : ArrayLista = new ArrayList(); --> then addd emp, student product data
+// you also serialize normal collection i,e : ArrayLista = new ArrayList(); --> then add emp, student product data
 
 // after that you need to type caste and use you know
 

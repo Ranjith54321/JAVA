@@ -3,7 +3,7 @@
  		1.) ArraList -> uderlying dataStructure -> resizablearray
  		2.) LinkedList ->  uderlying dataStructure -> Doubly-LinkedList
 
- 		we now see the difference based on various citeria : 
+ 		we now see the difference based on various criteria : 
 
  		1.) Insertion :
 
@@ -38,4 +38,10 @@
 
  				LinkedList -> we can access data here also but not here no interface or something but slow 
 
- 		5.) 
+ 		5.) Deletion:
+
+ 			for this LinkedList is more good bcoz: 
+
+ 				ArraList -> we need to traverse the elements for any kind of insertion(mid,end,start) ***it is like an array****
+
+ 				LinkedList -> we just delete node just point the node that is it

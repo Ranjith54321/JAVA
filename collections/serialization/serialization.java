@@ -1,6 +1,6 @@
 	in a single jvm (local machine)
 
-	if you declare a method public then it can accessable by any programe vailable on that machine
+	if you declare a method public then it can accessable by any programe available on that machine
 
 
 	but we handle lots of data let's' think distributed Systems via network they have differnt machine 
@@ -14,9 +14,9 @@
 
 			jvm2 needs to read the data from jvm1 now we need to transfer the data through network
 
-			so to send data through network , network only supports file formate 
+			so to send data through network, network only supports file format
 
-			so , here we talk about two thinks 1.) serialization 2.) deserialization
+			so, here we talk about two thinks 1.) serialization 2.) deserialization
 
 			1.) serialization :
 

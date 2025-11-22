@@ -1,6 +1,3 @@
-	
-
-
 
 
 			Throwable (root class of Exception handling)

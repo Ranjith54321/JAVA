@@ -1,7 +1,7 @@
 /*
 		we can display the exception masg in 3  ways :
 
-			1.) using reference variable -> defaultly it calls toString()
+			1.) using reference variable -> by default it calls toString()
 			2.) getMessage() -> it will display only the msg
 			3.) printStackTrace() -> it will display the flow
 

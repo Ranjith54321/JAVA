@@ -1,6 +1,6 @@
 #throw
 
-throw is mainly used for to create user defined exception 
+throw is mainly used for to create user defined exception and wec can manually throw the exception from the business logic.
 
 so to create user defined exception there are two setps :
 
@@ -38,7 +38,7 @@ so to create user defined exception there are two setps :
  		  also it has 2 types  :
 
  		  			1.) 0 - arg constructor approach
- 		  			1.) parametarised  constructor approach
+ 		  			2.) parametarised  constructor approach
 
   
   in 0 - arg constructor approach :

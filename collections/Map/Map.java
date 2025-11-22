@@ -29,7 +29,7 @@ see the introduction in the java by ratan book pg : 317
 
 	-> to get only key  use keySet() method it's' return type Set 
 
-	-> to get only  value use values() method it's' return type Colllection
+	-> to get only  value use values() method it's' return type Collection
 
 	-> (key,value) -> is called entry
 

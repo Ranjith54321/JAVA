@@ -7,7 +7,7 @@
 
 	so you can call it as run compile exception
 
-	it is also handle by the try-catch or throws keys word
+	it is also handle by the try-catch or throws key word
 
 */
 	// checked Exception child class of  Exception
@@ -22,7 +22,7 @@ class test2{
 }
 
 /*
-	whether it is checked Exception or un-checked Exception , the Exception heappens at run time
+	whether it is checked Exception or un-checked Exception, the Exception heappens at run time
 
 	checked Exception is safe bcoz it shows the exception before the run of the programe
 

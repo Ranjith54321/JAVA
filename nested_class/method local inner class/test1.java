@@ -1,5 +1,5 @@
 /*
-						Method Local Inner Class
+			Method Local Inner Class
 
 			decalare a class inside the mthod is called method local inner class 
 

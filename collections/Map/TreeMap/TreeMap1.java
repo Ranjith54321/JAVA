@@ -55,8 +55,8 @@ class treemap1{
 	}
 }
 
-// if Map has hetro genious data it creates ClassCade Exception
+// if Map has hetrogenious data it creates ClassCade Exception
 
-// it map comntains null values it create Null ponter exception
+// it map comntains null values it create Null pointer exception
 
 //

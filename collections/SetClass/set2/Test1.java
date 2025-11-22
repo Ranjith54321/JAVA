@@ -25,7 +25,7 @@ class Test1{
 		h3.addAll(lh2);
 		h3.add("mapiii");
 		
-		System.out.println("1-> :"+h3);// here last u used HashSet so order not preserved
+		System.out.println("1-> :"+h3);// here last used HashSet so order not preserved
 
 
 	}

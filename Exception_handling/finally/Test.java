@@ -44,7 +44,7 @@ finally block
 
 */
 /*
-// case 3 : AbNormal Termination
+// case 3 : AbNormal Termination  -> IMMP
 class Test{
 	public static void main(String[] args) {
 		try{
@@ -69,7 +69,7 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
  here see before exception the finally block is excecuted
  */
 /*
- // case 4 : AbNormal Termination
+ // case 4 : AbNormal Termination -> IMMP
 class Test{
 	public static void main(String[] args) {
 		try{
